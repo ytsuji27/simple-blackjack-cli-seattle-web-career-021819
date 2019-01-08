@@ -32,7 +32,7 @@ end
 
 def hit?(number)
   prompt_user
-#  input = get_user_input
+  input = get_user_input
 #  if input == "s" do
 #    number
 #  end
