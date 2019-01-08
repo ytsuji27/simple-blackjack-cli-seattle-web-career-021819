@@ -35,11 +35,11 @@ def hit?(number)
   input = get_user_input
   if input == "s" do
     number
-#  elsif input == "h" do
-#    new_number = deal_card
-#    total = number + new_number
-#    total
-#  end
+  elsif input == "h" do
+    new_number = deal_card
+    total = number + new_number
+    total
+  end
 end
 
 def invalid_command
