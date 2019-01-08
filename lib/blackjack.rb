@@ -39,6 +39,8 @@ def hit?(number)
     new_number = deal_card
     total = number + new_number
     total
+  else
+    invalid_command
   end
 end
 
