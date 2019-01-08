@@ -30,7 +30,7 @@ def initial_round
   card_total
 end
 
-#def hit?(number)
+def hit?(number)
 #  prompt_user
 #  input = get_user_input
 #  if input == "s" do
@@ -41,7 +41,7 @@ end
 #    total = number + new_number
 #    total
 #  end
-#end
+end
 
 def invalid_command
   puts "Please enter a valid command"
