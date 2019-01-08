@@ -38,6 +38,7 @@ def hit?(number)
   elsif input == "h" do
     new_number = deal_card
     total = number + new_number
+    total
   end
 end
 
