@@ -35,7 +35,6 @@ def hit?(number)
   input = get_user_input
   if input == "s" do
     number
-  end
 #  elsif input == "h" do
 #    new_number = deal_card
 #    total = number + new_number
